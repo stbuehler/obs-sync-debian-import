@@ -1,0 +1,10 @@
+sources:
+ - deb http://ftp.de.debian.org/debian wheezy main
+keyrings:
+ - keyrings/debian-archive-squeeze-automatic.gpg
+ - keyrings/debian-archive-squeeze-stable.gpg
+ - keyrings/debian-archive-wheezy-stable.gpg
+ - keyrings/debian-archive-wheezy-automatic.gpg
+architectures:
+ - amd64
+ - i386

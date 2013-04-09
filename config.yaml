@@ -1,0 +1,12 @@
+realsources:
+ - deb http://ftp.de.debian.org/debian/ testing main contrib non-free
+sources:
+# - deb http://download.opensuse.org/repositories/home:/stbuehler/Debian_6.0/ ./
+ - deb http://ftp.de.debian.org/debian testing main
+keyrings:
+ - my-keyring.gpg
+architectures:
+ - amd64
+ - i386
+extra-packages:
+ - debhelper
